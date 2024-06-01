@@ -3,8 +3,10 @@
 
 <ul>
     <li>Click "External Link" below which wll navigate you to an external site. Immediately navigate back using the browser back button</li>
+
     <li>Click "Internal Link" below which will take you to another page of this site. Scroll down a bit on the page (halfway is a good amount to make it clear), take note of the Scroll Y position, then back navigate</li>
-    <li>Then just start alternating back and forward navigations between this page and the other page. (You can use <kbd>alt</kbd> + <kbd>right arrow</kbd> and <kbd>alt</kbd> + <kbd>left arrow</kbd> to do this quickly)</li>
+
+    <li>Then just start alternating back and forward navigations between this page and the other page and pay attention to Scroll Y as it doesn't alternate correctly. (You can use <kbd>alt</kbd> + <kbd>right arrow</kbd> and <kbd>alt</kbd> + <kbd>left arrow</kbd> to do this quickly)</li>
 </ul>
 
 <p>
