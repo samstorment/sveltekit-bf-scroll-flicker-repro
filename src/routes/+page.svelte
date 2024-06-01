@@ -1,12 +1,17 @@
+<h1>Demos showing scroll position weirdness after back navigating from external site</h1>
 
-<div>
-    <a href="https://github.com/sveltejs/kit">External Link</a>
-    <br>
-    <br>
-    <a href="/other">Internal Link</a>
-</div>
+<ul>
+    <li>
+        <a href="/flicker/1">Flicker Demo</a>
+    </li>
+    <li>
+        <a href="/alert/1">Back Navigate Demo</a>
+    </li>
+</ul>
 
 
-{#each { length: 100 } as _}
-    <div style="padding: 1rem;">take up space to cause scroll</div>
-{/each}
+<style>
+    h1 {
+        text-wrap: balance;
+    }
+</style>
