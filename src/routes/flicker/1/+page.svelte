@@ -19,7 +19,7 @@
 <div class="note">
     <p>
 
-        My expectation is that Scroll Y would just alternate back and forth as you switch between the two pages, but something causes the scroll Y positions to get out of whack. 
+        My expectation is that Scroll Y would just alternate back and forth as you switch between the two pages, but something causes the scroll Y positions to get out of whack. I think it could have something to do with the bfcache since I never have this issue on the dev server and bfcache is disabled there.
     </p>
     <p>
         I called this a "flicker" because I first noticed it when the scroll y position was causing the page to jump a bit too early before a navigation completed, but sometimes there's no visual flicker and the scroll y position still get messed up after back and forward navigations. The "flicker" seems to manifest more often on firefox but I've seen it on chrome too.
