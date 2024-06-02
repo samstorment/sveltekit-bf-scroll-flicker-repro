@@ -23,12 +23,19 @@
 
 <style>
     div {
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.85);
         color: white;
         position: fixed;
         bottom: 0;
         right: 0;
         padding: 1rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    @media (max-width: 500px) {
+        div {
+            left: 0;
+            font-size: 1rem;
+        }
     }
 </style>
